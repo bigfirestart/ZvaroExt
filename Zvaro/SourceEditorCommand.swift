@@ -17,7 +17,6 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
                 let regex = try NSRegularExpression(pattern: "\\{.*\\(.+\\).+in", options: .caseInsensitive)
                 let range = NSRange(0 ..< line.length)
                 let results = regex.matches(in: line as String, options: .reportProgress, range: range)
-                // 2. When a closure is found, clean up its syntax
                 _ = results.map { result in
                     let cleanLine = line.remove(characters: ["(", ")"], in: result.range)
                     updatedLineIndexes.append(lineIndex)
