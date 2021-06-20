@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E77A215C267F7F310041EA85 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77A215B267F7F310041EA85 /* test.swift */; };
 		E7C9F8A1267F6EDA00739C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9F8A0267F6EDA00739C17 /* AppDelegate.swift */; };
 		E7C9F8A3267F6EDA00739C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C9F8A2267F6EDA00739C17 /* ViewController.swift */; };
 		E7C9F8A5267F6EDB00739C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7C9F8A4267F6EDB00739C17 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E77A215B267F7F310041EA85 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		E7C9F89D267F6EDA00739C17 /* ZvaroExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZvaroExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C9F8A0267F6EDA00739C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7C9F8A2267F6EDA00739C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				E7C9F8A6267F6EDB00739C17 /* Main.storyboard */,
 				E7C9F8A9267F6EDB00739C17 /* Info.plist */,
 				E7C9F8AA267F6EDB00739C17 /* ZvaroExt.entitlements */,
+				E77A215B267F7F310041EA85 /* test.swift */,
 			);
 			path = ZvaroExt;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7C9F8A3267F6EDA00739C17 /* ViewController.swift in Sources */,
+				E77A215C267F7F310041EA85 /* test.swift in Sources */,
 				E7C9F8A1267F6EDA00739C17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
