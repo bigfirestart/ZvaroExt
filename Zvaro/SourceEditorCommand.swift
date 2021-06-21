@@ -1,9 +1,3 @@
-//
-//  SourceEditorCommand.swift
-//  Zvaro
-//
-//  Created by Кирилл Лукьянов on 20.06.2021.
-//
 
 import Foundation
 import XcodeKit
